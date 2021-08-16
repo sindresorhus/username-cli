@@ -2,13 +2,11 @@
 
 > Get the username of the current user
 
-
 ## Install
 
 ```
 $ npm install --global username-cli
 ```
-
 
 ## Usage
 
@@ -20,12 +18,6 @@ $ username --help
     sindresorhus
 ```
 
-
 ## Related
 
 - [username](https://github.com/sindresorhus/username) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

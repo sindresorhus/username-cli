@@ -1,12 +1,13 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const username = require('username');
+import meow from 'meow';
+import {usernameSync} from 'username';
 
 meow(`
 	Example
 	  $ username
 	  sindresorhus
-`);
+`, {
+	importMeta: import.meta,
+});
 
-console.log(username.sync());
+console.log(usernameSync());
