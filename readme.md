@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install --global username-cli
+```sh
+npm install --global username-cli
 ```
 
 ## Usage
